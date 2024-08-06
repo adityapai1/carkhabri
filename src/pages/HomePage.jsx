@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import bean from '../assets/khabriimag.jpeg'
+import i20 from '../assets/i202.jpeg'
+
 
 const carData = [
   {
@@ -36,11 +39,18 @@ const HomePage = () => {
   return (
     <div className="container mx-auto p-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-        <div className="bg-gray-200 p-4 rounded">
-          <h2 className="text-xl font-bold">Some Illustration</h2>
+        <div className="bg-white-200 p-4 rounded">
+
+          <img src={bean} alt="mrbean" />
         </div>
         <div className="bg-gray-200 p-4 rounded">
-          <h2 className="text-xl font-bold">Something related to the website</h2>
+          <h2 className="text-xl font-bold">Car Khaabri is your go-to spot for chill car vibes. We dish out the latest car news and reviews in plain English. </h2>
+          <br />
+         <h2 className="text-xl font-bold"> 
+          
+          Car Khaabri: Your daily dose of car crazy.
+          </h2> 
+          
         </div>
       </div>
 
